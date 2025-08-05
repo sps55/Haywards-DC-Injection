@@ -5,9 +5,9 @@ close all
 
 % Filenames
 DC_data = 'transformer_currents.csv';
-even_harmonic_data = 'T1_data\20230120_1218_001_Harmonics_I1.csv';
-odd_harmonic_data = 'T1_data\20230120_1218_001_H1 I1.csv';
-Q_data = 'T1_data\20230120_1218_001_Q L1.csv';
+even_harmonic_data = 'even_harmonics.csv';
+odd_harmonic_data = 'odd_harmonics.csv';
+Q_data = 'reactive_power.csv';
 
 % Observation period
 start_date = datetime("21/01/2023");
@@ -99,6 +99,7 @@ y_vars = {Y1, Y2, Y3, Y4, Y5};
 y_varnames = ["H2 Phase A (A)", "H4 Phase A (A)", "H6 Phase A (A)", "H8 Phase A (A)", "H10 Phase A (A)"];
 
 plot_scatter(x_vars,y_vars,"Neutral Current (A)", y_varnames, [-20 40])
+
 
 
 
