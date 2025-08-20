@@ -1,5 +1,5 @@
 # Haywards-DC-Injection
-This repository contains code used to reproduce the figures in the Space Weather Paper titled: High Voltage DC Active Current Injection to Simulate Geomagnetically Induced Currents. 
+This repository contains code used to reproduce the figures in the Space Weather Paper titled: High Voltage DC Active Current Injection to Simulate Geomagnetically Induced Currents in New Zealand. 
 It consists of two MATLAB scripts:
 1) PQ_data_analyser - Program used to analyse the power-quality readings from the transformer.
 2) Analyse_sound - Program used to analyse the sound spectrum from audio readings.
